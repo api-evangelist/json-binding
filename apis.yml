@@ -1,12 +1,40 @@
+aid: json-binding
 name: JSON Binding
-description: JSON Binding is a specialized technology or methodology in the json domain
-  that addresses specific technical or business requirements. It provides targeted
-  capabilities that help practitioners and organizations solve problems and improve
-  outcomes in their area of focus.
-url: null
+description: >-
+  JSON Binding (JSON-B) is a standard binding layer for converting Java objects
+  to/from JSON messages. It defines a default mapping algorithm for converting
+  existing Java classes to JSON, while enabling developers to customize the
+  mapping process through a Java API.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-- JSON Binding
-created: '2025'
-modified: '2025'
-apis: []
-common: []
+  - JSON Binding
+  - Java
+  - Serialization
+  - JSON
+url: https://raw.githubusercontent.com/api-evangelist/json-binding/refs/heads/main/apis.yml
+created: '2025-01-01'
+modified: '2026-03-16'
+specificationVersion: '0.19'
+apis:
+  - aid: json-binding:json-b
+    name: Jakarta JSON Binding
+    description: >-
+      The Jakarta JSON Binding specification for converting Java objects to
+      and from JSON messages.
+    humanURL: https://jakarta.ee/specifications/jsonb/
+    tags:
+      - JSON Binding
+      - Java
+      - Serialization
+    properties:
+      - type: Documentation
+        url: https://jakarta.ee/specifications/jsonb/
+common:
+  - type: Website
+    url: https://jakarta.ee/specifications/jsonb/
+  - type: Documentation
+    url: https://jakarta.ee/specifications/jsonb/
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
