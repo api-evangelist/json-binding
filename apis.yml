@@ -8,10 +8,10 @@ description: >-
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - JSON Binding
   - Java
-  - Serialization
   - JSON
+  - JSON Binding
+  - Serialization
 url: https://raw.githubusercontent.com/api-evangelist/json-binding/refs/heads/main/apis.yml
 created: '2025-01-01'
 modified: '2026-03-16'
@@ -24,8 +24,8 @@ apis:
       and from JSON messages.
     humanURL: https://jakarta.ee/specifications/jsonb/
     tags:
-      - JSON Binding
       - Java
+      - JSON Binding
       - Serialization
     properties:
       - type: Documentation
