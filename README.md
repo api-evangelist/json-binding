@@ -1,5 +1,5 @@
 # JSON Binding (json-binding)
-JSON Binding (JSON-B) is a standard binding layer for converting Java objects to/from JSON messages. It defines a default mapping algorithm for converting existing Java classes to JSON, while enabling developers to customize the mapping process through a Java API.
+Jakarta JSON Binding (JSON-B) defines a standard binding layer for converting Java objects to and from JSON documents. It specifies a default mapping algorithm for serializing and deserializing existing Java classes to and from JSON, while enabling developers to customize the mapping process through a Java API. JSON-B 3.0 is the stable release shipped with Jakarta EE 10, with version 3.1 under development for Jakarta EE 12.
 
 **URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/json-binding/refs/heads/main/apis.yml)
 
@@ -11,17 +11,17 @@ JSON Binding (JSON-B) is a standard binding layer for converting Java objects to
 
 ## Tags:
 
- - JSON Binding, Java, Serialization, JSON
+ - JSON Binding, Java, Serialization, JSON, Jakarta EE
 
 ## Timestamps
 
 - **Created:** 2025-01-01 
-- **Modified:** 2026-03-16 
+- **Modified:** 2026-04-28 
 
 ## APIs
 
 ### Jakarta JSON Binding
-The Jakarta JSON Binding specification for converting Java objects to and from JSON messages.
+The Jakarta JSON Binding specification for marshaling Java objects to JSON and unmarshaling JSON back into Java objects. Provides a default mapping algorithm and customization through annotations and a runtime configuration API for consistent JSON binding across the Jakarta EE ecosystem.
 
 **Human URL:** [https://jakarta.ee/specifications/jsonb/](https://jakarta.ee/specifications/jsonb/)
 
@@ -33,11 +33,13 @@ The Jakarta JSON Binding specification for converting Java objects to and from J
 #### Properties
 
 - [Documentation](https://jakarta.ee/specifications/jsonb/)
+- [Specification](https://jakarta.ee/specifications/jsonb/3.0/)
 
 ## Common Properties
 
 - [Website](https://jakarta.ee/specifications/jsonb/)
 - [Documentation](https://jakarta.ee/specifications/jsonb/)
+- [GitHub Organization](https://github.com/jakartaee/jsonb-api)
 
 ## Maintainers
 
