@@ -43,7 +43,7 @@ common:
     url: https://jakarta.ee/specifications/jsonb/
   - type: Documentation
     url: https://jakarta.ee/specifications/jsonb/
-  - type: GitHub Organization
+  - type: GitHubOrganization
     url: https://github.com/jakartaee/jsonb-api
 maintainers:
   - FN: Kin Lane
