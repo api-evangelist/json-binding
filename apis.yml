@@ -39,6 +39,8 @@ apis:
       - type: Specification
         url: https://jakarta.ee/specifications/jsonb/3.0/
 common:
+  - type: DomainSecurity
+    url: security/json-binding-domain-security.yml
   - type: Website
     url: https://jakarta.ee/specifications/jsonb/
   - type: Documentation
