@@ -62,6 +62,12 @@ apis:
       - type: Specification
         url: https://jakarta.ee/specifications/jsonb/3.0/
 common:
+  - type: Plans
+    url: plans/json-binding-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/json-binding-rate-limits.yml
+  - type: FinOps
+    url: finops/json-binding-finops.yml
   - type: DomainSecurity
     url: security/json-binding-domain-security.yml
   - type: Website
