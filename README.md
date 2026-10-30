@@ -1,4 +1,4 @@
-# JSON Binding (json-binding)
+# JSON Binding
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,48 +66,101 @@
 
 Jakarta JSON Binding (JSON-B) defines a standard binding layer for converting Java objects to and from JSON documents. It specifies a default mapping algorithm for serializing and deserializing existing Java classes to and from JSON, while enabling developers to customize the mapping process through a Java API. JSON-B 3.0 is the stable release shipped with Jakarta EE 10, with version 3.1 under development for Jakarta EE 12.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/json-binding/refs/heads/main/apis.yml)
+**Areas:** Java · JSON · JSON Binding · Jakarta EE · Serialization
 
-## Scope
+## JSON Binding on APIs.io
 
-- **Type:** Index 
-- **Position:** Consuming 
-- **Access:** 3rd-Party 
+Everything profiled for JSON Binding is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/json-binding/](https://apis.io/providers/json-binding/)** — or go straight to one of the APIs or properties below.
 
-## Tags:
+### APIs (1)
 
- - JSON Binding, Java, Serialization, JSON, Jakarta EE
+- [Jakarta JSON Binding](https://apis.io/apis/json-binding/json-b/) — The Jakarta JSON Binding specification for marshaling Java objects to JSON and unmarshaling JSON back into Java objects. Provides a default mapping…
 
-## Timestamps
+### Published properties
 
-- **Created:** 2025-01-01 
-- **Modified:** 2026-04-28 
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### Security (1)
 
-### Jakarta JSON Binding
-The Jakarta JSON Binding specification for marshaling Java objects to JSON and unmarshaling JSON back into Java objects. Provides a default mapping algorithm and customization through annotations and a runtime configuration API for consistent JSON binding across the Jakarta EE ecosystem.
+Authentication, trust centre, and vulnerability disclosure.
 
-**Human URL:** [https://jakarta.ee/specifications/jsonb/](https://jakarta.ee/specifications/jsonb/)
+- [Json Binding Domain Security](https://apis.io/security/json-binding/json-binding-domain-security/)
 
+#### Plans and pricing (1)
 
-#### Tags:
+Published plans, tiers and prices.
 
- - JSON Binding, Java, Serialization
+- [Json Binding Plans Pricing](https://apis.io/plans/json-binding/json-binding-plans-pricing/)
 
-#### Properties
+#### Rate limits (1)
 
-- [Documentation](https://jakarta.ee/specifications/jsonb/)
-- [Specification](https://jakarta.ee/specifications/jsonb/3.0/)
+Published request limits.
 
-## Common Properties
+- [Json Binding Rate Limits](https://apis.io/rate-limits/json-binding/json-binding-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Json Binding Finops](https://apis.io/finops/json-binding/json-binding-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://jakarta.ee/specifications/jsonb/)
 - [Documentation](https://jakarta.ee/specifications/jsonb/)
-- [GitHub Organization](https://github.com/jakartaee/jsonb-api)
+- [GitHub](https://github.com/jakartaee/jsonb-api)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
+**Kin Score 9.2** — minimal · rubric 0.24.0 · scored 2026-10-17
 
-**Email:** kin@apievangelist.com
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 9.5 |
+| Access clarity | 7.9 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/json-binding/](https://apis.io/providers/json-binding/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for JSON Binding: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/json-binding/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
